@@ -308,7 +308,7 @@ print(flat_list)
 result = []
 temp_list = []
 for i in flat_list:
-    if i == '0x000700e1':
+    if i == '0x000700e1': # 'Left Shift'
         temp_list.append(i)
     else:
         temp_list.append(i)
