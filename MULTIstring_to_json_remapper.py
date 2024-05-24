@@ -350,5 +350,4 @@ def magic(input_string, macro_number):
         outfile.write(modified_json)
 
 for i in range(0, len(input_strings)):
-    print(i)
     magic(input_strings[i], i)
