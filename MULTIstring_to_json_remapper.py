@@ -7,7 +7,16 @@ json_out_path = 'base modified 8 input.json'
 
 # The strings you put into this list correspond to the number of macro.
 # So 'A' is macro 1, 'B' is macro 2, etc...
-input_strings = ['A','B', 'C', '1', '2', '3' ]
+input_strings = [
+                 '', # Macro 1
+                 '', # Macro 2
+                 '', # Macro 3
+                 '', # Macro 4
+                 '', # Macro 5
+                 '', # Macro 6
+                 '', # Macro 7
+                 ''  # Macro 8
+                 ]
 
 # open the template JSON file once.
 with open(json_in_path) as f:
