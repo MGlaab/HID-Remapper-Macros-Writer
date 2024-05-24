@@ -329,7 +329,7 @@ def magic(input_string, macro_number):
     result.append(temp_list)
     result.pop()
     # print(result)
-    #  insert the data we just created into the Templatre JSON file at the certain
+    # insert the data we just created into the template JSON file at the certain
     # macro number.
     data['macros'].insert(macro_number, result)
 
