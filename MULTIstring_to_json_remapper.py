@@ -7,6 +7,7 @@ json_out_path = 'base modified 8 input.json'
 
 # The strings you put into this list correspond to the number of macro.
 # So 'A' is macro 1, 'B' is macro 2, etc...
+# Make sure to add additional space at end of string if you want it.
 input_strings = [
                  '', # Macro 1
                  '', # Macro 2
@@ -302,7 +303,6 @@ def magic(input_string, macro_number):
             string_list[i] = 'Nothing'
         if n == ' ':
             string_list[i] = 'Space'
-    string_list.append('Space')
     # print(string_list)
 
     for i in string_list:
