@@ -1,6 +1,6 @@
 
-json_in_path = "/Users/matthewglaab/Downloads/MGlaab.github.io-main/base JSON.json"
-json_out_path = "/Users/matthewglaab/Downloads/MGlaab.github.io-main/base JSON Modified.json"
+json_in_path = "base JSON.json"
+json_out_path = "base JSON Modified.json"
 
 const usages_by_function = {
 'Left button': '0x00090001',
