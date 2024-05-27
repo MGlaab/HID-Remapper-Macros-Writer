@@ -1,6 +1,6 @@
 
-json_in_path = "/Users/matthewglaab/Downloads/MGlaab.github.io-main/base JSON.json"
-json_out_path = "/Users/matthewglaab/Downloads/MGlaab.github.io-main/base JSON Modified.json"
+json_in_path = "base JSON.json"
+json_out_path = "base JSON Modified.json"
 
 // importing the fs module
 const fs = require("fs");
@@ -381,7 +381,7 @@ const usages_by_function = {
  'GPIO 29': '0xfff4001d'
  }
 
-var input_string = 'Hello World Lennon! '
+var input_string = 'Hello World! '
 var macro_number = 1
 var usages_array = []
 var dataObject = {};
