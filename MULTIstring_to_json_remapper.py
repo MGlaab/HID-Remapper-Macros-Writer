@@ -335,8 +335,8 @@ def magic(input_string, macro_number):
             temp_list.append(i)
             result.append(temp_list)
             temp_list = []
-    result.append(temp_list)
-    result.pop()
+    # result.append(temp_list)
+    # result.pop()
     # print(result)
     # insert the data we just created into the template JSON file at the certain
     # macro number.
