@@ -1,4 +1,7 @@
 {
+    "description": [
+  
+    ],
     "version": 12,
     "unmapped_passthrough_layers": [
         0,
@@ -125,14 +128,7 @@
         }
     ],
     "macros": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+
     ],
     "expressions": [
         "",
